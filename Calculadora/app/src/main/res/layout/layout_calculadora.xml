@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:background="#b4b4b4"
+        android:layout_gravity="fill"
+        android:textSize="20sp"
+        android:text="0"
+        />
+
+    <Button
+        android:id="@+id/botonAC"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="AC"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/botonC"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="C"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/porciento"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="%"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/division"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="/"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton7"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="7"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton8"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="8"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton9"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="9"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/por"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="*"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="4"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton5"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="5"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton6"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="6"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/menos"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="-"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="1"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="2"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="3"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/mas"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="+"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/coma"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text=","
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/boton0"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:text="0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/igual"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#CDDC39"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="="
+        tools:ignore="HardcodedText" />
+</GridLayout>

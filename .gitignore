@@ -1,0 +1,84 @@
+# Directorios de compilación
+**/build/
+**/*/build/
+
+# Archivos de Android Studio
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# Archivos de Gradle
+**/.gradle/
+**/local.properties
+**/.gradle/
+**/build/
+
+# Archivos generados por el sistema operativo
+**/.DS_Store
+**/Thumbs.db
+
+# Archivos de log
+**/*.log
+
+# Archivos temporales
+**/*.tmp
+**/*.temp
+**/*.swp
+
+# Cache de Android Studio
+**/.cxx/
+**/.externalNativeBuild/
+**/captures/
+**/outputs/
+**/.navigation/
+**/releases/
+**/generated/
+
+# Archivos de configuración de usuarios
+**/*.keystore
+**/*.jks
+
+# Archivos de empaquetado
+**/*.apk
+**/*.ap_
+**/*.aab
+
+# Archivos de firma
+**/signing.properties
+
+# Archivos de prueba locales
+**/test-results/
+**/androidTest-results/
+
+# NDK
+**/obj/
+
+# IntelliJ
+**/out/
+
+# VS Code
+**/.vscode/
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Firebase
+**/firebase-debug.log
+
+# Crashlytics
+**/crashlytics-build.properties
+
+# Otros IDEs
+**/*.orig
+
+# Flutter (si es una app híbrida)
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
