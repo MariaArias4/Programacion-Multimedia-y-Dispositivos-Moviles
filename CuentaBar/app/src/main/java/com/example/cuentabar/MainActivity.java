@@ -28,12 +28,14 @@ public class MainActivity extends AppCompatActivity {
         TextView textPropina = findViewById(R.id.propina);
         TextView total = findViewById(R.id.total);
 
+        int propina = 10;
 
 
         seekbarPropina.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                textPropina.setText("Propina: " + progress);
+                textPropina.setText("Propina: " + progress + "%");
+                MainActivity.this.propina = progress;
             }
 
             @Override
@@ -66,11 +68,12 @@ public class MainActivity extends AppCompatActivity {
                         textViewError.setText("El valor debe ser mayor que cero.");
                     } else {
                         textViewError.setText(""); // Sin errores
-                        // Aquí puedes continuar con el procesamiento del valor
                     }
                 } catch (NumberFormatException e) {
                     textViewError.setText("Formato inválido. Introduce solo números.");
                 }
+
+                    if(input )
             }
         });
 
