@@ -3,11 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eventos"
+        android:layout_marginBottom="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:textAlignment="center"/>
+
     <ListView
         android:id="@+id/listEvents"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/btnAdd"/>
+        android:layout_above="@+id/btnAdd"
+        android:paddingTop="25dp"/>
 
     <Button
         android:id="@+id/btnAdd"
